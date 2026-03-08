@@ -1,0 +1,26 @@
+{
+  "reply_probability": {
+    "description": "主动回复概率（0.0 ~ 1.0）",
+    "type": "float",
+    "hint": "每条群消息触发主动回复的概率。0 = 关闭，1 = 每条都回复。建议设置 0.05 ~ 0.15。",
+    "default": 0.1
+  },
+  "ai_judge_enabled": {
+    "description": "开启 AI 自主判断",
+    "type": "bool",
+    "hint": "开启后，AI 可以选择不说话，改为贴一个表情回应（或完全沉默）。关闭则触发后一定会发文字回复。",
+    "default": true
+  },
+  "group_whitelist": {
+    "description": "群白名单（群号列表）",
+    "type": "list",
+    "hint": "只在这些群触发主动回复。留空则不限制群组。填写时每项为群号字符串。白名单优先级高于黑名单。",
+    "default": []
+  },
+  "group_blacklist": {
+    "description": "群黑名单（群号列表）",
+    "type": "list",
+    "hint": "这些群永远不触发主动回复。白名单不为空时此项无效。",
+    "default": []
+  }
+}
