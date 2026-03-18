@@ -1,6 +1,7 @@
 # astrbot_plugin_proactive
-
+##未完善有bug别用
 > AstrBot 插件 · 概率触发主动插入群聊，AI 可自主决定是否发言或贴表情
+
 
 ---
 
@@ -13,12 +14,6 @@
   - 贴一个 QQ 表情在触发消息上（不发文字）
   - 完全沉默，什么都不做
 - 支持群白名单 / 黑名单，精确控制触发范围
-
----
-
-## 安装
-
-在 AstrBot 管理面板 → 插件市场 搜索 `astrbot_plugin_proactive` 安装，或手动将插件目录放入 `data/plugins/` 后重启。
 
 ---
 
