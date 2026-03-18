@@ -1,5 +1,6 @@
 # astrbot_plugin_proactive
-##未完善有bug别用
+
+## 未完善有bug别用
 > AstrBot 插件 · 概率触发主动插入群聊，AI 可自主决定是否发言或贴表情
 
 
